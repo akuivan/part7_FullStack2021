@@ -1,0 +1,12 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImthaGVrc2FzIiwiaWQiOiI2MTZkNTYwMTQ2MDhlOTNjOGJkNTViMmIiLCJpYXQiOjE2MzQ2MTg2ODl9.Qq5OW8PXgb3fCzSxbPc6Xp8BUU_-gTiAfoXlLygDgc0
+
+{
+    "title": "jtn",
+    "author": "kaheksas",
+    "url": "www.jtn.com",
+    "likes": 1331,
+    "user": "616d56014608e93c8bd55b2b",
+    "comments": ["jaa-a", "höh"]
+}
